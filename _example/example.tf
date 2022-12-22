@@ -18,6 +18,6 @@ module "container_registry" {
   project_id                               = var.gcp_project_id
   location                                 = "EU"
   role                                     = "roles/storage.objectViewer"
-  user_member                              = "user:manojkumawat2008@gmail.com"
+  user_member                              = "user:"
 
 }

@@ -12,7 +12,7 @@ variable "label_order" {
 
 variable "gcp_project_id" {
   type        = string
-  default     = "manifest-device-369014"
+  default     = "my_project_id"
   description = "Google Cloud project ID"
 }
 
